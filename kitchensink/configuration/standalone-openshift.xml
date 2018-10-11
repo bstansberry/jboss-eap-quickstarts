@@ -84,6 +84,8 @@
         </access-control>
     </management>
     <profile>
+        <!-- was this since Aug 15
+        
         <subsystem xmlns="urn:jboss:domain:logging:3.0">
             <console-handler name="CONSOLE">
                 <level name="INFO"/>
@@ -122,9 +124,8 @@
                 <pattern-formatter pattern="%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n"/>
             </formatter>
         </subsystem>
+        -->
         
-        
-        <!-- was this since Aug 15
         
         <subsystem xmlns="urn:jboss:domain:logging:3.0">
             <console-handler name="CONSOLE">
@@ -158,7 +159,6 @@
                 <pattern-formatter pattern="%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n"/>
             </formatter>
         </subsystem>
-        -->
         
         <subsystem xmlns="urn:jboss:domain:naming:2.0">
             <bindings>
